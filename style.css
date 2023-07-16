@@ -117,10 +117,49 @@ main {
 .team-FT {
     color: #FF900E;
     font-weight: 700;
+
 }
 
 /* features section */
+.feature-info-description {
+    color: #131313;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
 
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 140px;
+}
+.features-img img{
+    margin-left: 50px;
+}
+
+.ten-badge {
+    position: relative;
+    bottom: 100px;
+    width: 342px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    text-align: center
+    
+}
+
+.ten-tittle {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 45px 45px 10px 45px;
+    margin: 0;
+
+}
+
+.ten-description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
 
 /* facts section */
 .fact-tittle {
@@ -163,11 +202,11 @@ main {
 
 
 /* sponsor section */
-.sponsor-head{
+.sponsor-head {
     text-align: center;
 }
 
-.sponsor-img-container{
+.sponsor-img-container {
     display: flex;
     justify-content: space-evenly;
 }
@@ -191,7 +230,8 @@ main {
     .team-content-img {
         grid-template-columns: 1fr;
     }
-    .sponsor-img{
+
+    .sponsor-img {
         margin: auto;
         padding-top: 20px;
     }
@@ -204,7 +244,7 @@ main {
     }
 
     nav,
-    .team-container, 
+    .team-container,
     .sponsor-img-container {
         flex-direction: column;
     }
@@ -212,7 +252,8 @@ main {
     .team-content-img {
         padding-bottom: 30px;
     }
-    .sponsor-img{
+
+    .sponsor-img {
         margin: auto;
         padding-top: 20px;
     }
